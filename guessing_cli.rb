@@ -1,9 +1,5 @@
 require_relative "../guessing_cli"
-run_guessing_game 
-     
-20  guessing_cli.rb
-@@ -1 +1,19 @@
-# Code your solution here!	def run_guessing_game
+def run_guessing_game 
   loop do
       puts "Guess a number between 1 and 6."
       guess = gets.chomp
